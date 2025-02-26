@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .vermelho{
+        color:  red;
+    }
+    .preto{
+        color: black;
+    }
+   body{
+    background-image: url(https://i.ytimg.com/vi/4kxznmdUQOw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLADUIvZl-5wLMJnufpBj-Ere1bxQA); 
+   }
+</style>
+
+<body>
+
+    <h1 class="vermelho">
+        Bem vindo ao Vasco!!!
+    </hr>
+
+    <img src="https://static.poder360.com.br/2025/01/Bandeira-Vasco-848x477-1.webp" width="600px">
+
+    <a href="https://www.netvasco.com.br/" target="_blank">
+
+    <p class="preto">
+    Clique aqui para saber mais noticias do gigante!!!
+</p>
+</body>
+</html>
