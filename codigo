@@ -1,37 +1,52 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vasco da Gama - Site do Torcedor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<style>
-
-    .vermelho{
-        color:  red;
-    }
-    .preto{
-        color: black;
-    }
-   body{
-    background-image: url(https://i.ytimg.com/vi/4kxznmdUQOw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLADUIvZl-5wLMJnufpBj-Ere1bxQA); 
-   }
-</style>
-
 <body>
+    <header>
+        <h1 class="titulo">Bem vindo ao Vasco!!!</h1>
+    </header>
 
-    <h1 class="vermelho">
-        Bem vindo ao Vasco!!!
-    </hr>
+    <main>
+        <section class="banner">
+            <img src="https://static.poder360.com.br/2025/01/Bandeira-Vasco-848x477-1.webp" alt="Bandeira do Vasco da Gama" class="imagem-principal">
+        </section>
 
-    <img src="https://static.poder360.com.br/2025/01/Bandeira-Vasco-848x477-1.webp" width="600px">
+        <section class="conteudo">
+            <p class="texto-destaque">
+                <a href="https://www.netvasco.com.br/" target="_blank" class="link-vasco">
+                    Clique aqui para saber mais notícias do gigante!!!
+                </a>
+            </p>
+        </section>
 
-    <a href="https://www.netvasco.com.br/" target="_blank">
+        <section class="historia">
+            <h2>História do Clube</h2>
+            <p>O Club de Regatas Vasco da Gama foi fundado em 21 de agosto de 1898 e é um dos clubes mais tradicionais do Brasil.</p>
+            <button id="mostrarMais" class="botao-vasco">Ver mais</button>
+            <div id="maisConteudo" class="escondido">
+                <p>O Vasco da Gama tem uma história rica e foi pioneiro na luta contra o preconceito no futebol brasileiro, sendo o primeiro grande clube a aceitar jogadores negros e de origens humildes em seu elenco.</p>
+            </div>
+        </section>
+    </main>
+   <h1>
+     CONTEUDO MULTIMIDIA
+   </h1>
+  <hr>
+  <video controls width="800" height="600">
+    <source src="videoplayback.mp4" type="video/mp4">
+    <track kind="subtitles" srclang="pt-br" src="Brasil foi jogar no vasco 😔😔😔 [Portuguese (auto-generated)] [DownloadYoutubeSubtitles.com] (3).vtt" label="Legendas PT-BR">
+  </video>
+    <footer>
+        <p>&copy; 2023 - Site do Torcedor Vascaíno</p>
+    </footer>
 
-    <p class="preto">
-    Clique aqui para saber mais noticias do gigante!!!
-</p>
+    <script src="script.js"></script>
 </body>
 </html>
