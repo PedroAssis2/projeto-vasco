@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -41,14 +40,14 @@
   <hr>
   <video controls width="800" height="600">
     <source src="videoplayback.mp4" type="video/mp4">
-    <track kind="subtitles" srclang="pt-br" src="Brasil foi jogar no vasco 😔😔😔 [Portuguese (auto-generated)] [DownloadYoutubeSubtitles.com] (3).vtt" label="Legendas PT-BR">
+    <track kind="subtitles" srclang="pt-br" src="Brasil foi jogar no vasco 😔😔😔 [Portuguese (auto-generated)] [DownloadYoutubeSubtitles.com].vtt" label="Legendas PT-BR">
   </video>
   <h1>
     AUDIO DO VIDEO
   </h1>
   <audio controls>
     <source src="Brasil foi jogar no vasco 😔😔😔.mp3" type="audio/mpeg">
-    
+
   </audio>
     <footer>
         <p>&copy; 2023 - Site do Torcedor Vascaíno</p>
