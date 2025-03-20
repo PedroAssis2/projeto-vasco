@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,26 +15,87 @@
     <main>
         <section class="banner">
             <img src="https://static.poder360.com.br/2025/01/Bandeira-Vasco-848x477-1.webp" alt="Bandeira do Vasco da Gama" class="imagem-principal">
+            <div class="banner-overlay">
+                <h2>Gigante da Colina</h2>
+                <p>Tradição, Paixão e Glória!</p>
+            </div>
         </section>
 
-        <section class="conteudo">
-            <p class="texto-destaque">
-                <a href="https://www.netvasco.com.br/" target="_blank" class="link-vasco">
-                    Clique aqui para saber mais notícias do gigante!!!
-                </a>
-            </p>
+        <section class="destaques">
+            <div class="destaque-card">
+                <i class="fas fa-trophy"></i>
+                <h3>Títulos</h3>
+                <p>Brasileiro (4x), Libertadores (1x), Mercosul (1x)</p>
+            </div>
+            <div class="destaque-card">
+                <i class="fas fa-users"></i>
+                <h3>Torcida</h3>
+                <p>Mais de 20 milhões de torcedores</p>
+            </div>
+            <div class="destaque-card">
+                <i class="fas fa-star"></i>
+                <h3>História</h3>
+                <p>125 anos de glória</p>
+            </div>
         </section>
-        
+
+        <section class="noticias">
+            <h2>Últimas Notícias</h2>
+            <div class="noticias-grid">
+                <a href="https://www.netvasco.com.br/" target="_blank" class="noticia-card">
+                    <div class="noticia-content">
+                        <h3>Acompanhe as Últimas Notícias</h3>
+                        <p>Fique por dentro de tudo sobre o Gigante!</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
         <section class="historia">
             <h2>História do Clube</h2>
-            <p>O Club de Regatas Vasco da Gama foi fundado em 21 de agosto de 1898 e é um dos clubes mais tradicionais do Brasil.</p>
-            <button id="mostrarMais" class="botao-vasco">Ver mais</button>
-            <div id="maisConteudo" class="escondido">
-                <p>O Vasco da Gama tem uma história rica e foi pioneiro na luta contra o preconceito no futebol brasileiro, sendo o primeiro grande clube a aceitar jogadores negros e de origens humildes em seu elenco.</p>
+            <div class="historia-content">
+                <p>O Club de Regatas Vasco da Gama foi fundado em 21 de agosto de 1898 e é um dos clubes mais tradicionais do Brasil.</p>
+                <button id="mostrarMais" class="botao-vasco">Ver mais</button>
+                <div id="maisConteudo" class="escondido">
+                    <p>O Vasco da Gama tem uma história rica e foi pioneiro na luta contra o preconceito no futebol brasileiro, sendo o primeiro grande clube a aceitar jogadores negros e de origens humildes em seu elenco.</p>
+                    <p>Com sua cruz de malta e suas cores preto e branco, o Vasco representa não apenas um time de futebol, mas um símbolo de resistência e inclusão social no esporte brasileiro.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria">
+            <h2>Galeria Multimídia</h2>
+            <div class="media-container">
+                <div class="video-wrapper">
+                    <video controls>
+                        <source src="videoplayback.mp4" type="video/mp4">
+                        <track kind="subtitles" srclang="pt-br" src="Brasil foi jogar no vasco 😔😔😔 [Portuguese (auto-generated)] [DownloadYoutubeSubtitles.com].vtt" label="Legendas PT-BR">
+                    </video>
+                </div>
+                <div class="audio-wrapper">
+                    <h3>Áudio do Vídeo</h3>
+                    <audio controls>
+                        <source src="Brasil foi jogar no vasco 😔😔😔.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
             </div>
         </section>
     </main>
+   <h1>
+     CONTEUDO MULTIMIDIA
+   </h1>
+  <hr>
+  <video controls width="800" height="600">
+    <source src="videoplayback.mp4" type="video/mp4">
+    <track kind="subtitles" srclang="pt-br" src="Brasil foi jogar no vasco 😔😔😔 [Portuguese (auto-generated)] [DownloadYoutubeSubtitles.com].vtt" label="Legendas PT-BR">
+  </video>
+  <h1>
+    AUDIO DO VIDEO
+  </h1>
+  <audio controls>
+    <source src="Brasil foi jogar no vasco 😔😔😔.mp3" type="audio/mpeg">
 
+  </audio>
     <footer>
         <p>&copy; 2023 - Site do Torcedor Vascaíno</p>
     </footer>
